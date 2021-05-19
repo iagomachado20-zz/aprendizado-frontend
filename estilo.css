@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header-site {
+    background: red;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-brand {
+    font-size: 60px;
+    color: black;
+}
+
+.header-site.blue {
+    background: blue;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li {
+    padding: 0 5px;
+    list-style: none;
+    color: blue;
+}
+
+.menu .submenu li {
+    color: green;
+}
+
+.header-site .logo-brand {
+    color: white;
+}
+
+
+.banner {
+    background: black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2em;
+    color: red;
+}
